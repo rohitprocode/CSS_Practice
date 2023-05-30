@@ -39,18 +39,56 @@ h1{
 /* Media Query*/
 
 @media(max-width: 320px){
-    .container{
-        text-align: center;
-        display: block;
-        width: 100%;
-        height: fit-content;
-        margin: auto;
 
+    h1{
+        background-color: red;
+    }
+
+    .container{
+        display: block;
     }
 
     .contain_img{
         width: 100%;
+    }
 
-        
+    .container p{
+        width: 100%;
+    }    
+
+    .contain_img img{
+        width: 100%;
+        height: auto;
+        padding: 10%;
+        box-sizing: border-box;
     }
 }
+
+
+
+@media(min-width:1024px){
+    h1{
+        color: yellow;
+        background-color: black;
+    }
+
+    p{
+        color: white;
+        background-color: gray; 
+        word-spacing: 20px;
+    }
+}
+
+/* @media(min-width:321px) and (max-width:1023px){
+    
+    h1{
+        text-transform: uppercase;
+    }
+
+    .container p{
+        color: black;
+        background-color: skyblue;
+        word-spacing: 10px;
+    }
+
+} */
