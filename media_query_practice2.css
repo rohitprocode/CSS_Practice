@@ -64,7 +64,42 @@ h1{
     }
 }
 
+@media(min-width:321px) and (max-width:768px){
+    
+    h1{
+        text-transform: uppercase;
+    }
 
+    .container{
+        display: block;
+    }
+
+    .contain_img{
+        width: 100%;
+    }
+
+    .container p{
+        width: 100%;
+        color: black;
+        background-color: skyblue;
+        word-spacing: 10px;
+    }
+
+    .contain_img img{
+        width: 100%;
+        height: auto;
+        padding: 10%;
+        box-sizing: border-box;
+    }
+
+}
+
+@media(min-width:769px) and (max-width:1023px){
+    h1{
+        color: orange;
+        background-color: black;
+    }
+}
 
 @media(min-width:1024px){
     h1{
@@ -79,16 +114,3 @@ h1{
     }
 }
 
-/* @media(min-width:321px) and (max-width:1023px){
-    
-    h1{
-        text-transform: uppercase;
-    }
-
-    .container p{
-        color: black;
-        background-color: skyblue;
-        word-spacing: 10px;
-    }
-
-} */
