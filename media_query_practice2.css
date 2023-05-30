@@ -3,12 +3,54 @@
     padding: 0;
 }
 
+h1{
+    margin: 50px 0px;
+    text-align: center;
+    text-transform: capitalize;   /* This property capitalize the first text of word. */ 
+}
 
+.container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
 
+.container p{
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 1.7;
+}
 
+.contain_img{
+    width: 50%;
+    text-align: center;
+    padding: 0;
+}
 
-@media (min-width: 320px) and (max-width: 480px){
-    body{
+.contain_img img{
+    width: 450px;
+}
+
+/* Media Query*/
+
+@media(max-width: 320px){
+    .container{
+        text-align: center;
+        display: block;
         width: 100%;
+        height: fit-content;
+        margin: auto;
+
+    }
+
+    .contain_img{
+        width: 100%;
+
+        
     }
 }
